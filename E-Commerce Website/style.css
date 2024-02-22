@@ -1,0 +1,82 @@
+.header{
+    background-color: #333e48;
+}
+.a{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/sub-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.a1{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/sub-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.a2{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/sub-banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.b{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/cms-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.b2{
+    background-image: url(https://zunair-practice.web.app/images/CategoryImages/cms-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.section5{
+    background-image: url(https://zunair-practice.web.app/images/offer-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.c{
+    background-color: #333e48;
+}
+.container-fluid{
+    background-color: #333e48;
+}
+.d{
+    font-size: 40px;
+    color: rgb(255, 187, 0);
+}
+.e{
+    font-size: 30px;
+}
+@media only screen and (max-width: 853px) {
+    header>img.w-100{
+        display: none !important; 
+    }
+    nav{
+        display: inline-block !important;
+        width: 100vw !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .b>h2,.b2>h2{
+        font-size: 16px !important;
+    }
+    .b,.b2{
+        font-size: 10px !important;
+        
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    .b>h2,.b2>h2{
+        font-size: 25px !important;
+    }
+    .b,.b2{
+        font-size: 15px !important;
+        
+    }
+    .b{
+        margin-bottom: 10px !important;
+    }
+}
