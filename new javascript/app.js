@@ -9,7 +9,7 @@
 // let randomnum = "";
 // let randomcharacter = "";
 
-// for ( let i = 0; i < lenghtofpass/4; i++ ){
+// for ( let i = 0; i < 4; i++ ){
 //     random = Math.floor( Math.random() * capital.length )
 //     randomcapital += capital[random] 
 
